@@ -1,0 +1,30 @@
+{
+  "name": "tanksgame",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d dist ",
+    "watch": "babel src -d dist -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DevArslan/webGLtanks.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DevArslan/webGLtanks/issues"
+  },
+  "homepage": "https://github.com/DevArslan/webGLtanks#readme",
+  "dependencies": {
+    "babylonjs": "^4.1.0",
+    "cannon": "^0.6.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.6",
+    "@babel/node": "^7.8.7",
+    "@babel/preset-env": "^7.9.6"
+  }
+}
